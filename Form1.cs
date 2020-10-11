@@ -17,5 +17,9 @@ namespace CSV_chk_tool1
             InitializeComponent();
         }
 
+        private void End_btn_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

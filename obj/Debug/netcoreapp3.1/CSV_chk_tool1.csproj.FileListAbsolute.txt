@@ -1,0 +1,16 @@
+C:\Users\getty\source\repos\CSV_chk_tool1\CSV_chk_tool1\bin\Debug\netcoreapp3.1\CSV_chk_tool1.exe
+C:\Users\getty\source\repos\CSV_chk_tool1\CSV_chk_tool1\bin\Debug\netcoreapp3.1\CSV_chk_tool1.deps.json
+C:\Users\getty\source\repos\CSV_chk_tool1\CSV_chk_tool1\bin\Debug\netcoreapp3.1\CSV_chk_tool1.runtimeconfig.json
+C:\Users\getty\source\repos\CSV_chk_tool1\CSV_chk_tool1\bin\Debug\netcoreapp3.1\CSV_chk_tool1.runtimeconfig.dev.json
+C:\Users\getty\source\repos\CSV_chk_tool1\CSV_chk_tool1\bin\Debug\netcoreapp3.1\CSV_chk_tool1.dll
+C:\Users\getty\source\repos\CSV_chk_tool1\CSV_chk_tool1\bin\Debug\netcoreapp3.1\CSV_chk_tool1.pdb
+C:\Users\getty\source\repos\CSV_chk_tool1\CSV_chk_tool1\obj\Debug\netcoreapp3.1\CSV_chk_tool1.csprojAssemblyReference.cache
+C:\Users\getty\source\repos\CSV_chk_tool1\CSV_chk_tool1\obj\Debug\netcoreapp3.1\CSV_chk_tool1.Form1.resources
+C:\Users\getty\source\repos\CSV_chk_tool1\CSV_chk_tool1\obj\Debug\netcoreapp3.1\CSV_chk_tool1.Properties.Resources.resources
+C:\Users\getty\source\repos\CSV_chk_tool1\CSV_chk_tool1\obj\Debug\netcoreapp3.1\CSV_chk_tool1.csproj.GenerateResource.cache
+C:\Users\getty\source\repos\CSV_chk_tool1\CSV_chk_tool1\obj\Debug\netcoreapp3.1\CSV_chk_tool1.AssemblyInfoInputs.cache
+C:\Users\getty\source\repos\CSV_chk_tool1\CSV_chk_tool1\obj\Debug\netcoreapp3.1\CSV_chk_tool1.AssemblyInfo.cs
+C:\Users\getty\source\repos\CSV_chk_tool1\CSV_chk_tool1\obj\Debug\netcoreapp3.1\CSV_chk_tool1.csproj.CoreCompileInputs.cache
+C:\Users\getty\source\repos\CSV_chk_tool1\CSV_chk_tool1\obj\Debug\netcoreapp3.1\CSV_chk_tool1.dll
+C:\Users\getty\source\repos\CSV_chk_tool1\CSV_chk_tool1\obj\Debug\netcoreapp3.1\CSV_chk_tool1.pdb
+C:\Users\getty\source\repos\CSV_chk_tool1\CSV_chk_tool1\obj\Debug\netcoreapp3.1\CSV_chk_tool1.genruntimeconfig.cache
