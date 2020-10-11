@@ -34,6 +34,7 @@
             this.OutFolder_Select_btn = new System.Windows.Forms.Button();
             this.Start_btn = new System.Windows.Forms.Button();
             this.End_btn = new System.Windows.Forms.Button();
+            this.selectFD = new System.Windows.Forms.OpenFileDialog();
             this.SuspendLayout();
             // 
             // InFolder_Path
@@ -43,6 +44,7 @@
             this.InFolder_Path.Size = new System.Drawing.Size(403, 23);
             this.InFolder_Path.TabIndex = 0;
             this.InFolder_Path.Tag = "";
+            this.InFolder_Path.Text = "C:\\Users\\getty\\Desktop\\サンプルファイル";
             // 
             // InFolder_Select_btn
             // 
@@ -50,8 +52,9 @@
             this.InFolder_Select_btn.Name = "InFolder_Select_btn";
             this.InFolder_Select_btn.Size = new System.Drawing.Size(127, 45);
             this.InFolder_Select_btn.TabIndex = 1;
-            this.InFolder_Select_btn.Text = "フォルダ選択";
+            this.InFolder_Select_btn.Text = "取込フォルダ選択";
             this.InFolder_Select_btn.UseVisualStyleBackColor = true;
+            this.InFolder_Select_btn.Click += new System.EventHandler(this.InFolder_Select_btn_Click);
             // 
             // OutFolder_Path
             // 
@@ -60,6 +63,7 @@
             this.OutFolder_Path.Size = new System.Drawing.Size(403, 23);
             this.OutFolder_Path.TabIndex = 0;
             this.OutFolder_Path.Tag = "";
+            this.OutFolder_Path.Text = "C:\\temp\\csv_check_tool";
             // 
             // OutFolder_Select_btn
             // 
@@ -67,8 +71,9 @@
             this.OutFolder_Select_btn.Name = "OutFolder_Select_btn";
             this.OutFolder_Select_btn.Size = new System.Drawing.Size(127, 45);
             this.OutFolder_Select_btn.TabIndex = 1;
-            this.OutFolder_Select_btn.Text = "フォルダ選択";
+            this.OutFolder_Select_btn.Text = "出力フォルダ選択";
             this.OutFolder_Select_btn.UseVisualStyleBackColor = true;
+            this.OutFolder_Select_btn.Click += new System.EventHandler(this.OutFolder_Select_btn_Click);
             // 
             // Start_btn
             // 
@@ -89,6 +94,13 @@
             this.End_btn.Text = "終了";
             this.End_btn.UseVisualStyleBackColor = false;
             this.End_btn.Click += new System.EventHandler(this.End_btn_Click);
+            // 
+            // selectFD
+            // 
+            this.selectFD.CheckFileExists = false;
+            this.selectFD.FileName = "SelectFolder";
+            this.selectFD.Filter = "Folder |.";
+            this.selectFD.RestoreDirectory = true;
             // 
             // Form1
             // 
@@ -118,6 +130,7 @@
         private System.Windows.Forms.Button OutFolder_Select_btn;
         private System.Windows.Forms.Button Start_btn;
         private System.Windows.Forms.Button End_btn;
+        private System.Windows.Forms.OpenFileDialog selectFD;
     }
 }
 

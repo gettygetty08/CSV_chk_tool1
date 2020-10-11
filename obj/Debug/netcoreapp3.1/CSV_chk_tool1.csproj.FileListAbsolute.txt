@@ -10,7 +10,7 @@ C:\Users\getty\source\repos\CSV_chk_tool1\CSV_chk_tool1\obj\Debug\netcoreapp3.1\
 C:\Users\getty\source\repos\CSV_chk_tool1\CSV_chk_tool1\obj\Debug\netcoreapp3.1\CSV_chk_tool1.csproj.GenerateResource.cache
 C:\Users\getty\source\repos\CSV_chk_tool1\CSV_chk_tool1\obj\Debug\netcoreapp3.1\CSV_chk_tool1.AssemblyInfoInputs.cache
 C:\Users\getty\source\repos\CSV_chk_tool1\CSV_chk_tool1\obj\Debug\netcoreapp3.1\CSV_chk_tool1.AssemblyInfo.cs
-C:\Users\getty\source\repos\CSV_chk_tool1\CSV_chk_tool1\obj\Debug\netcoreapp3.1\CSV_chk_tool1.csproj.CoreCompileInputs.cache
 C:\Users\getty\source\repos\CSV_chk_tool1\CSV_chk_tool1\obj\Debug\netcoreapp3.1\CSV_chk_tool1.dll
 C:\Users\getty\source\repos\CSV_chk_tool1\CSV_chk_tool1\obj\Debug\netcoreapp3.1\CSV_chk_tool1.pdb
 C:\Users\getty\source\repos\CSV_chk_tool1\CSV_chk_tool1\obj\Debug\netcoreapp3.1\CSV_chk_tool1.genruntimeconfig.cache
+C:\Users\getty\source\repos\CSV_chk_tool1\CSV_chk_tool1\obj\Debug\netcoreapp3.1\CSV_chk_tool1.csproj.CoreCompileInputs.cache
