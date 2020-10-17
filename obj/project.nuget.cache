@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "3MifiUkVAhOHMf06oQ0PO+of0uP/rkoUdZJAxYgyCVDSia8g65lc6Jhz8174wyKRkCzmyY+o1IshnYUkt1N8mw==",
+  "dgSpecHash": "WshHM+WQkFby41V2FfSIzr25IXSWtarPNBY+lUjFBlQglH4n1ASrg9HK0RzEevJVTBoYVGkZC0p4fPwqmqPTzQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\getty\\source\\repos\\CSV_chk_tool1\\CSV_chk_tool1\\CSV_chk_tool1.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\getty\\.nuget\\packages\\csvhelper\\15.0.6\\csvhelper.15.0.6.nupkg.sha512",
+    "C:\\Users\\getty\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512"
+  ],
   "logs": []
 }

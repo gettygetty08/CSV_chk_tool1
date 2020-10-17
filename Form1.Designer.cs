@@ -54,7 +54,6 @@
             this.InFolder_Select_btn.TabIndex = 1;
             this.InFolder_Select_btn.Text = "取込フォルダ選択";
             this.InFolder_Select_btn.UseVisualStyleBackColor = true;
-            this.InFolder_Select_btn.Click += new System.EventHandler(this.InFolder_Select_btn_Click);
             // 
             // OutFolder_Path
             // 
@@ -73,7 +72,6 @@
             this.OutFolder_Select_btn.TabIndex = 1;
             this.OutFolder_Select_btn.Text = "出力フォルダ選択";
             this.OutFolder_Select_btn.UseVisualStyleBackColor = true;
-            this.OutFolder_Select_btn.Click += new System.EventHandler(this.OutFolder_Select_btn_Click);
             // 
             // Start_btn
             // 
@@ -83,6 +81,7 @@
             this.Start_btn.TabIndex = 1;
             this.Start_btn.Text = "処理開始";
             this.Start_btn.UseVisualStyleBackColor = true;
+            this.Start_btn.Click += new System.EventHandler(this.Start_btn_Click);
             // 
             // End_btn
             // 

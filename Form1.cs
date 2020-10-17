@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CSV_chk_tool1.モジュール;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -16,6 +17,11 @@ namespace CSV_chk_tool1
         public Form1()
         {
             InitializeComponent();
+
+            InFolder_Select_btn.Click += SetFolderPath(InFolder_Path, "取込フォルダを選択してください。");
+            OutFolder_Select_btn.Click += SetFolderPath(OutFolder_Path, "出力フォルダーを選択してください");
+
+
         }
 
         private void End_btn_Click(object sender, EventArgs e)
@@ -23,31 +29,30 @@ namespace CSV_chk_tool1
             Close();
         }
 
-        private void InFolder_Select_btn_Click(object sender, EventArgs e)
+
+
+
+        private void Start_btn_Click(object sender, EventArgs e)
         {
-            using (selectFD) 
-            {
-                selectFD.Title = "取込フォルダを選択してください。";
-                selectFD.InitialDirectory = InFolder_Path.Text == string.Empty ? common_const.初期フォルダ : InFolder_Path.Text;
-
-                if (selectFD.ShowDialog() == DialogResult.OK) InFolder_Path.Text = Path.GetDirectoryName(selectFD.FileName);
-
-            }
-
-
+            var cls1 = new main_module() { フォルダパス = InFolder_Path.Text };
+            cls1.input_date();
         }
 
-        private void OutFolder_Select_btn_Click(object sender, EventArgs e)
+
+        private EventHandler SetFolderPath(TextBox txtbox,string Title) 
+            => (_, __)
+            =>
         {
-            using(selectFD)
+            using (selectFD)
             {
-                selectFD.Title = "出力フォルダーを選択してください";
-                selectFD.InitialDirectory = OutFolder_Path.Text == string.Empty ? common_const.初期フォルダ : OutFolder_Path.Text;
+                selectFD.Title = Title;
+                selectFD.InitialDirectory = txtbox.Text == string.Empty ? common_const.初期フォルダ : txtbox.Text;
 
 
-                if (selectFD.ShowDialog() == DialogResult.OK) OutFolder_Path.Text = Path.GetDirectoryName(selectFD.FileName);
+                if (selectFD.ShowDialog() == DialogResult.OK) txtbox.Text = Path.GetDirectoryName(selectFD.FileName);
 
             }
-        }
+        };
+
     }
 }
