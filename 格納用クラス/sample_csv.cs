@@ -17,6 +17,7 @@ namespace CSV_chk_tool1
         public int Q7 { get; set; }
         public int Q8 { get; set; }
         public int Q9 { get; set; }
+        public bool 正常フラグ { get; set; }
 
     }
 }
