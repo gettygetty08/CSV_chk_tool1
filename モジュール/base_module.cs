@@ -10,12 +10,12 @@ namespace CSV_chk_tool1.モジュール
     {
         public string 取込フォルダパス { get; set; }
         public string 出力フォルダパス { get; set; }
-        public List<string> ファイル名 { get; set; }
+        protected List<FileInfo> ファイル名 { get; set; }
 
-        List<sample_csv> 取込CSV = new List<sample_csv>();
-        List<sample_csv> 出力CSV = new List<sample_csv>();
-        List<IDクラス> MKID出力CSV = new List<IDクラス>();
-        List<異常CSV> 異常CSV = new List<異常CSV>();
+        protected List<sample_csv> 取込CSV = new List<sample_csv>();
+        protected List<sample_csv> 出力CSV = new List<sample_csv>();
+        protected List<IDクラス> MKID出力CSV = new List<IDクラス>();
+        protected List<異常CSV> 異常CSV = new List<異常CSV>();
 
     }
 }
